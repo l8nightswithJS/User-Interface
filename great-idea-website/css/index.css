@@ -90,18 +90,25 @@ a {
 .logo {
 	display: inline-block;
 	vertical-align: top; 
-	padding-left: 100px;
-	padding-top: 15px;
+	padding: 15px 0px 0px 30px;
+
 	}
 
 body {
+	width: 1200px;
 	padding-left: 40px;
 }
 
 .caption-img-btn {
 	width:1200px;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 	padding-bottom: 80px;
+}
+
+.line {
+	border-top: 1px solid black;
+	width: 1200px;
+	margin-left: 20px; 
 }
 
 .main-caption {
@@ -143,9 +150,8 @@ span {
 
 .main-text-img {
 	width: 1200px;
-	border: 2px solid black;
-	padding: 5px;
-	margin: 5px;
+	padding: 5px 0px 5px 0px;
+	margin: 5px 0px 5px 0px;
 }
 
 .main-text1 {
@@ -183,14 +189,14 @@ padding: 30px;
 	display: inline-block;
 	width: 33%;
 	margin: 0px;
-	padding: 25px;
+	padding: 20px;
 }
 
 .main-text5 {
 	display: inline-block;
 	width: 31%;
 	margin: 0px;
-	padding: 25px;
+	padding: 20px;
 }
 
 footer {
